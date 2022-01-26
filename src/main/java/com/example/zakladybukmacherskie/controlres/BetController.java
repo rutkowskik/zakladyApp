@@ -66,7 +66,6 @@ public class BetController {
     @PostMapping("/game/{gameId}/bets")
     public String saveNewBet(@PathVariable String gameId,@Valid @ModelAttribute("bet") BetCommand betCommand,
                              BindingResult bindingResult, Model model) {
-        // TODO: 24.01.2022 try put this into other method
         // TODO: 24.01.2022 implement JDBC as DB
         // TODO: 26.01.2022 sprawdznie czy podana propozycja zakladu juz istnieje
             try {
