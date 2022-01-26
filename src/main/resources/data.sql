@@ -1,0 +1,10 @@
+INSERT INTO game VALUES (1, 'Katowice', '2022-07-21|18:00:00', 'Polska-Niemcy');
+INSERT INTO game VALUES (2, 'Warszawa', '2022-06-21|21:00:00', 'Polska-Wegry');
+INSERT INTO game VALUES (3, 'Wrocław', '2022-07-12|18:00:00', 'Niemcy-Wegry');
+INSERT INTO game VALUES (4, 'Warszawa', '2022-06-23|21:00:00', 'Ukraina-Niemcy');
+INSERT INTO game VALUES (5, 'Katowice', '2022-07-01|21:00:00', 'Polska-Ukraina');
+INSERT INTO game VALUES (6, 'Gdańsk', '2022-07-03|21:00:00', 'Włochy-Niemcy');
+INSERT INTO bets VALUES (1,'2022-07-02|18:00:00 ', '2022-07-21|18:00:00',1);
+INSERT INTO bets VALUES (2,'2022-07-12|12:00:00 ', '2022-07-21|18:00:00',1);
+INSERT INTO bets VALUES (3,'2022-03-02|11:00:00 ', '2022-07-21|18:00:00',3);
+INSERT INTO bets VALUES (4,'2022-05-02|15:00:00 ', '2022-07-21|18:00:00',2);
